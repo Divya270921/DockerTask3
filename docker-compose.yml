@@ -1,0 +1,9 @@
+version: '3'
+services:
+  nginx:
+    image: divyashree27/custom-nginx:latest
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx_data:/var/opt/nginx
+
